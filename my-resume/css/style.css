@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-color:#F8FAFC;
+    height: 100vh;
+}
+/* Navigation bar styling */
+.main .nav-bar{
+    background-color: #0F172A;
+    height: 7vh;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    
+   font-family: sans-serif;
+
+}
+.main .nav-bar .logo{
+    color: white;
+    font-weight: 600;
+
+}
+
+.main .nav-bar .nav-items li{
+    display: inline-block;
+}
+.main .nav-bar .nav-items li a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:25px;
+
+}
+.main .nav-bar .nav-items li a:hover{
+    color: rgb(23, 215, 122);
+    transition: .4s;
+}
+/* Home page styling */
+.main .home{
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.951);
+    padding-top: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main .home .heros{
+   width: 30%;
+}
+.main .home .heros .hero-text{
+    color:rgb(0, 0, 0);
+   font-size: 20px;
+   font-family: sans-serif;
+}
+
+.main .home .heros .hero-text .who-am-i{
+   padding-bottom:15px ;
+}
+.main .home .heros .hero-text .who-am-i span{
+   font-weight: 600;
+   color: rgb(9, 186, 101);
+}
+.main .home .heros .hero-text .career{
+   font-weight: 600;
+   padding-bottom:5px ;
+}
+.main .home .heros .hero-text .about-us{
+    font-size: 16px;
+    padding-top: 5px;
+}
+.main .home .heros .hero-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+
+}
+.main .home .heros .hero-action .hero-link{
+    font-size: 22px;
+}
+.main .home .heros .hero-action .hero-link a{
+    padding:0 7px;
+    text-decoration: none;
+    color: black;
+
+}
+.main .home .heros .hero-action .hero-link a:hover{
+    color: rgb(9, 186, 101);
+}
+.main .home .heros .hero-action .hero-button{
+    padding: 0 45px 0 0;
+    
+}
+.main .home .heros .hero-action .hero-button a{
+  border: .5px solid rgba(0, 0, 0, 0.352);
+  border-radius: 15px;
+  text-decoration: none;
+  background: none;
+  padding: 10px 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  color: black;
+}
+.main .home .heros .hero-action .hero-button  #contact-me{
+    margin-right: 20px;
+}
+.main .home .heros .hero-action .hero-button  #download-cv i{
+    padding-right: 7px;
+}
+.main .home .heros .hero-action .hero-button a:hover{
+  background-color: rgb(9, 186, 101);
+  transition: .2s;
+  color: white;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+  
+}
+.main .home .my-image {
+    height: 550px; 
+    width: auto;
+    object-fit: cover;
+    border-radius: 20px; 
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.main .home .my-image:hover {
+    transform: scale(1.01);
+    transition: .2s;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+}
+
+.about{
+    background-color: beige;
+    height: 100vh;
+}
+
+
