@@ -23,12 +23,12 @@ html {
     right: 0;
     position: fixed;
     width: 100%;
-    
+    z-index: 1000;
    font-family: sans-serif;
 
 }
 .main .nav-bar .logo{
-    color: white;
+    color:white;
     font-weight: 600;
 
 }
@@ -45,7 +45,7 @@ html {
 
 }
 .main .nav-bar .nav-items li a:hover{
-    color: rgb(23, 215, 122);
+    color: #10b981;
     transition: .4s;
 }
 /* Home page styling */
@@ -148,3 +148,70 @@ html {
 }
 
 
+@media screen and (max-width: 480px) {
+    .main .nav-bar{
+        flex-direction: column;
+        height: 10vh;
+        
+}
+.main .nav-bar .logo{
+    color:white;
+    font-weight: 400;
+    padding-top: 7px;
+
+}
+.main .nav-bar .nav-items li a{
+
+    font-size: 15px;
+    padding:10px;
+
+}
+    .main .home{
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    gap: 15px;
+}
+    .main .home .my-image {
+    height: 300px; 
+       order: -1;
+       
+}
+.main .home .heros{
+   padding-bottom: 25px; 
+   width:100%;
+   
+}
+.main .home .heros .hero-text{
+    
+    text-align: center;
+   font-size: 10px;
+   
+}
+.main .home .heros .hero-text .career{
+   padding-bottom:12px ;
+}
+.main .home .heros .hero-text .about-us{
+ font-size: 9px;
+ text-align: center;
+}
+.main .home .heros .hero-action{
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.main .home .heros .hero-action .hero-button{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.main .home .heros .hero-action .hero-button #contact-me{
+ margin-right: 0;
+ text-align: center;
+ 
+}
+
+}
