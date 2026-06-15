@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -8,14 +8,17 @@ html {
 }
 
 .main{
-    background-color:#F8FAFC;
+    /* Deep Midnight Obsidian representing the deep dark sky of ancient astronomers */
+    background-color: #0A0F1D;
     height: 100vh;
 }
 /* Navigation bar styling */
 .main .nav-bar{
-    background-color: #0F172A;
+    /* Gradient mapping premium dark obsidian to deep rich navy */
+    background: linear-gradient(90deg, #0B0F19 0%, #161B26 50%, #0B0F19 100%);
     height: 7vh;
-    border-bottom: 2px rgb(255, 255, 255) solid;
+    /* Illuminated manuscript gold accent */
+    border-bottom: 2px rgba(212, 175, 55, 0.4) solid;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -28,9 +31,21 @@ html {
 
 }
 .main .nav-bar .logo{
-    color:white;
-    font-weight: 600;
-
+    /* Parchment white */
+    color:#E2E8F0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: "Croissant One", serif;
+}
+.main .nav-bar .logo span{
+    transition: all 0.1s ease
+   
+}
+.main .nav-bar .logo span:hover{
+    /* Golden Age vibrant metallic accent */
+    color:#D4AF37;
+    cursor:default;
+   
 }
 
 .main .nav-bar .nav-items li{
@@ -39,19 +54,23 @@ html {
 .main .nav-bar .nav-items li a{
     display: inline;
     text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding:25px;
+    font-family: "Croissant One", serif;
+    font-weight: 200;
+    color: #CBD5E1;
+    font-size: 1.2rem;
+    padding:0 1.2em;
 
 }
 .main .nav-bar .nav-items li a:hover{
-    color: #10b981;
+    /* Golden Age vibrant metallic accent */
+    color: #D4AF37;
     transition: .4s;
 }
 /* Home page styling */
 .main .home{
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.951);
+    /* Transparent to reveal the majestic deep background */
+    background-color: transparent;
     padding-top: 7vh;
     display: flex;
     justify-content: space-evenly;
@@ -61,21 +80,27 @@ html {
    width: 30%;
 }
 .main .home .heros .hero-text{
-    color:rgb(0, 0, 0);
-   font-size: 20px;
+    /* Muted silver-blue for readable text */
+    color: #94A3B8;
+   font-size: 1.25rem;
    font-family: sans-serif;
 }
 
 .main .home .heros .hero-text .who-am-i{
+    /* Clear white for heading text */
+    color: #F8FAFC;
    padding-bottom:15px ;
 }
 .main .home .heros .hero-text .who-am-i span{
    font-weight: 600;
-   color: rgb(9, 186, 101);
+   /* Golden accent */
+   color: #D4AF37;
 }
 .main .home .heros .hero-text .career{
    font-weight: 600;
    padding-bottom:5px ;
+   /* Warm silver/parchment tone */
+   color: #E2E8F0;
 }
 .main .home .heros .hero-text .about-us{
     font-size: 16px;
@@ -94,27 +119,28 @@ html {
 .main .home .heros .hero-action .hero-link a{
     padding:0 7px;
     text-decoration: none;
-    color: black;
+    color: #CBD5E1;
 
 }
 .main .home .heros .hero-action .hero-link a:hover{
-    color: rgb(9, 186, 101);
+    color: #D4AF37;
 }
 .main .home .heros .hero-action .hero-button{
     padding: 0 45px 0 0;
     
 }
 .main .home .heros .hero-action .hero-button a{
-  border: .5px solid rgba(0, 0, 0, 0.352);
+  /* Islamic geometry inspired crisp gold borders */
+  border: 1px solid rgba(212, 175, 55, 0.6);
   border-radius: 15px;
   text-decoration: none;
-  background: none;
+  background: rgba(212, 175, 55, 0.03);
   padding: 10px 15px;
   font-family: sans-serif;
   font-weight: 600;
   font-size: 13px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  color: black;
+  color: #D4AF37;
 }
 .main .home .heros .hero-action .hero-button  #contact-me{
     margin-right: 20px;
@@ -123,10 +149,11 @@ html {
     padding-right: 7px;
 }
 .main .home .heros .hero-action .hero-button a:hover{
-  background-color: rgb(9, 186, 101);
+  /* Full gold fill with deep contrast text */
+  background-color: #D4AF37;
   transition: .2s;
-  color: white;
-  box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+  color: #0A0F1D;
+  box-shadow: 0 10px 35px rgba(212, 175, 55, 0.25);
   
 }
 .main .home .my-image {
@@ -139,11 +166,16 @@ html {
 .main .home .my-image:hover {
     transform: scale(1.01);
     transition: .2s;
-    box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+    /* Pure gold glow on image hover */
+    box-shadow: 0 10px 35px rgba(212, 175, 55, 0.2);
+    border-width: 1px;
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    
 }
 
 .about{
-    background-color: beige;
+    /* Deeper pure obsidian shade for section separation */
+    background-color: #050811;
     height: 100vh;
 }
 
@@ -155,7 +187,7 @@ html {
         
 }
 .main .nav-bar .logo{
-    color:white;
+    color:#F8FAFC;
     font-weight: 400;
     padding-top: 7px;
 

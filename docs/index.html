@@ -6,7 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
 <body>
     <div class="main">
 
@@ -52,6 +60,15 @@
          
     <div class="about">
     </div>
-   
+    <script>
+            // Split text into spans automatically
+        const textContainer = document.querySelector('.logo');
+        const characters = textContainer.textContent.split('');
+
+        // Loop through each character and wrap it in a span
+        textContainer.innerHTML = characters
+        .map(char => `<span>${char}</span>`)
+        .join('');
+    </script>
 </body>
 </html>
