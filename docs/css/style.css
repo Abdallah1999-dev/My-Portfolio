@@ -63,6 +63,10 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    background-image: url(../assets/3920.jpg);
+    background-attachment: fixed;
+    background-blend-mode:multiply;
+    background-size:contain;
 }
 .home .heros{
    width: 30%;
