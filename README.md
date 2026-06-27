@@ -11,12 +11,10 @@ I am a Techno-Functional Odoo Consultant with expertise in both business process
 * **Functional:** Business Process Analysis, Workflow Optimization, and User Training.
 
 ## 💼 Featured Projects
-Here is a collection of my web projects and Odoo implementations:
+I am currently working on documenting and uploading my latest web projects and Odoo implementations. 
 
-| Project Name | Description | Link |
-| :--- | :--- | :--- |
-| **Results Summary** | A responsive frontend component project. | [View Project](./results-summary/) |
-| **[Coming Soon]** | [Project Name] | [Link] |
+> **Coming Soon**
+> Exciting new projects and case studies are on the way! Stay tuned for updates as I continue to build and refine my portfolio.
 
 ## 🌐 Connect With Me
 Feel free to reach out for collaborations or inquiries:
